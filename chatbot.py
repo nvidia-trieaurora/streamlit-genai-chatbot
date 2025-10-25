@@ -8,7 +8,7 @@ load_dotenv()
 
 #streamlit page setup
 st.set_page_config(page_title="Chatbot", page_icon=":robot_face:",layout="centered")
-st.title("💬 Generative AI Chatbot của Lê Long Trường Thịnh")
+st.title("💬 Generative AI Chatbot")
 
 #initiate chat history
 if "chat_history" not in st.session_state:
